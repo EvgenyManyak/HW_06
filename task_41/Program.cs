@@ -1,10 +1,10 @@
 ﻿Console.Write("Введите число: ");
 int m = Convert.ToInt32(Console.ReadLine());
+int[] matrix = new int[m];
 int count = 0;
 for (int i = 0; i < m; i++)
 {
-    int x = Convert.ToInt32(Console.ReadLine());
-    if (x > 0)
+    if (matrix[i] > 0)
         {
             count++;
         }
